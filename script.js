@@ -1,6 +1,6 @@
     
     document.addEventListener('DOMContentLoaded', function(){
-        const endpoint = `https://api.github.com/users/ogiansouza`
+        const endpoint = `https://api.github.com/users/jessica-pires`
 
         fetch(endpoint).then(response => response.json())
         .then(data=>{
